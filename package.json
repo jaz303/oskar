@@ -1,0 +1,21 @@
+{
+  "name": "oskar",
+  "version": "0.0.0",
+  "description": "Lightweight on-screen keyboard with no dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaz303/oskar.git"
+  },
+  "keywords": [
+    "on-screen",
+    "keyboard"
+  ],
+  "author": "Jason Frame <jason@onehackoranother.com> (http://jasonframe.co.uk)",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "59e71f403c24e3810745324aef28bfdc66fdbc68"
+}
