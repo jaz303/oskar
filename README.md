@@ -25,7 +25,7 @@ That's it!
 
 The keymap is fully customisable and is specified as an array of rows, each row itself being an array of key descriptors. A key descriptor can be either:
 
-  * an object, recognised properties:
+  * an object, recognised properties being:
     * `cap`, string: symbol to display on keyboard
     * `value`, any type: value to emit when this key is pressed (defaults to the key cap itself)
     * `className`, string: additional class name to be added to this key's DOM element
