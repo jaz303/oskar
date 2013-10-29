@@ -54,7 +54,7 @@ The configuration option `onkeypress` is used to supply a function that will be 
         console.log("you pressed: " + value);
     }});
 
-As a convenience, Oskar provides a `sendTo()` method which will automatically hook its output up to an `<input>` element:
+As a convenience, Oskar provides a `sendTo()` method which will automatically hook its output up to an `&lt;input&gt;` element:
 
     var keyboard = oskar();
     keyboard.sendTo(document.querySelector('input[type=text]'));
@@ -62,7 +62,7 @@ As a convenience, Oskar provides a `sendTo()` method which will automatically ho
 The installed handler recognises a couple of special key values:
 
   * `backspace`: deletes the last character
-  * `enter`: triggers a user-specified callback - passed as a second parameter to `sendTo() - with the `<input>` element's current value.
+  * `enter`: triggers a user-specified callback - passed as a second parameter to `sendTo() - with the `&lt;input&gt;` element's current value.
 
 ## Styling
 
