@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Oskar Example</title>
+  <script src='bundle.js'></script>
+  <style type='text/css'>
+
+    .osk {
+        width: 476px; /* to prevent the keys from wrapping */
+    }
+
+    .osk-row {
+      text-align: center;
+      margin-bottom: 4px;
+    }
+
+    .osk-key {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background: #323231;
+      color: #A5C0CA;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      font: 15px/1 Helvetica, Arial;
+      padding-top: 13px;
+    }
+
+    .osk-key + .osk-key {
+      margin-left: 8px;
+    }
+
+    .osk-key.search {
+      width: 86px;
+    }
+
+    .osk-key.space {
+      width: 241px;
+    }
+    
+    input {
+      font-size: 40px;
+      display: block;
+      margin-bottom: 10px;
+      width: 470px;
+    }
+
+  </style>
+</head>
+<body onload='init();'>
+  <input type='text' />
+</body>
+</html>
