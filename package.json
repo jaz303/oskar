@@ -1,6 +1,6 @@
 {
   "name": "oskar",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Lightweight on-screen keyboard with no dependencies",
   "main": "index.js",
   "scripts": {
